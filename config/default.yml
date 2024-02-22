@@ -2,16 +2,16 @@ server:
   port: 3000
   basePath: ''
 application:
-  domain: juice-sh.op
-  name: 'OWASP Juice Shop'
-  logo: JuiceShop_Logo.png
+  domain: adyen.com
+  name: "Hacktics' Juice Shop"
+  logo: Adyen_Logo.png
   favicon: favicon_js.ico
-  theme: bluegrey-lightgreen # Options: bluegrey-lightgreen blue-lightblue deeppurple-amber indigo-pink pink-bluegrey purple-green deeporange-indigo
+  theme: purple-green # Options: bluegrey-lightgreen blue-lightblue deeppurple-amber indigo-pink pink-bluegrey purple-green deeporange-indigo
   showVersionNumber: true
-  showGitHubLinks: true
+  showGitHubLinks: false
   localBackupEnabled: true
   numberOfRandomFakeUsers: 0
-  altcoinName: Juicycoin
+  altcoinName: Haxxcoin
   privacyContactEmail: donotreply@owasp-juice.shop
   customMetricsPrefix: juiceshop
   chatBot:
@@ -20,20 +20,20 @@ application:
     trainingData: 'botDefaultTrainingData.json'
     defaultResponse: "Sorry I couldn't understand what you were trying to say"
     avatar: 'JuicyChatBot.png'
-  social:
-    twitterUrl: 'https://twitter.com/owasp_juiceshop'
-    facebookUrl: 'https://www.facebook.com/owasp.juiceshop'
-    slackUrl: 'https://owasp.org/slack/invite'
-    redditUrl: 'https://www.reddit.com/r/owasp_juiceshop'
-    pressKitUrl: 'https://github.com/OWASP/owasp-swag/tree/master/projects/juice-shop'
-    nftUrl: 'https://opensea.io/collection/juice-shop'
-    questionnaireUrl: ~
+  # social:
+  #   twitterUrl: 'https://twitter.com/owasp_juiceshop'
+  #   facebookUrl: 'https://www.facebook.com/owasp.juiceshop'
+  #   slackUrl: 'https://owasp.org/slack/invite'
+  #   redditUrl: 'https://www.reddit.com/r/owasp_juiceshop'
+  #   pressKitUrl: 'https://github.com/OWASP/owasp-swag/tree/master/projects/juice-shop'
+  #   nftUrl: 'https://opensea.io/collection/juice-shop'
+  #   questionnaireUrl: ~
   recyclePage:
     topProductImage: fruit_press.jpg
     bottomProductImage: apple_pressings.jpg
   welcomeBanner:
     showOnFirstStart: true
-    title: 'Welcome to OWASP Juice Shop!'
+    title: "Welcome to the Adyen Hacktics' Juice Shop!"
     message: "<p>Being a web application with a vast number of intended security vulnerabilities, the <strong>OWASP Juice Shop</strong> is supposed to be the opposite of a best practice or template application for web developers: It is an awareness, training, demonstration and exercise tool for security risks in modern web applications. The <strong>OWASP Juice Shop</strong> is an open-source project hosted by the non-profit <a href='https://owasp.org' target='_blank'>Open Web Application Security Project (OWASP)</a> and is developed and maintained by volunteers. Check out the link below for more information and documentation on the project.</p><h1><a href='https://owasp-juice.shop' target='_blank'>https://owasp-juice.shop</a></h1>"
   cookieConsent:
     message: 'This website uses fruit cookies to ensure you get the juiciest tracking experience.'
